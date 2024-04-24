@@ -1,0 +1,27 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^connexion/$   index.php?action=authentification [nc]
+RewriteRule ^produits/$   index.php?data=lesProduits [nc]
+RewriteRule ^commandes/$   index.php?data=lesCommandes [nc]
+RewriteRule ^statutcommande/([0-9]+)/$   index.php?data=statutCmd&refCommande=$1 [nc,qsa]
+RewriteRule ^produitbyid/([0-9]+)/$   index.php?data=produitbyid&id=$1 [nc,qsa] 
+RewriteRule ^updateseuil/$   index.php?action=updateseuil [nc]
+RewriteRule ^updatestock/$   index.php?action=updatestock [nc]
+RewriteRule ^produitshuile/$   index.php?data=produitHuile [nc]
+RewriteRule ^produitsrasoir/$   index.php?data=produitRassoir [nc]
+RewriteRule ^produitsaccessoire/$   index.php?data=produitAccessoire [nc]
+RewriteRule ^produitsasc/$   index.php?data=produitASC [nc]
+RewriteRule ^produitsdesc/$   index.php?data=produitDESC [nc]
+RewriteRule ^categories/$   index.php?data=lesCategs [nc] 
+RewriteRule ^statutcommandesuivant/([0-9]+)/$   index.php?data=nvStatutCmd&refCommande=$1 [nc,qsa]
+
+RewriteRule ^personne/insert/$   index.php?action=ajoutPersonne [nc]
+RewriteRule ^mesCoVoiturages/([0-9]+)/$   index.php?data=mesCoVoiturages&idPers=$1 [nc,qsa]
+RewriteRule ^coVoiturage/delete/([0-9]+)/$   index.php?idCoVoit=$1 [nc,qsa]
+RewriteRule ^coVoiturages/([0-9]+)/$   index.php?data=coVoiturages&idEvenement=$1 [nc,qsa]
+RewriteRule ^evenements/$   index.php?data=evenements [nc]
+RewriteRule ^personne/([0-9]+)/$   index.php?data=personne&idPers=$1 [nc,qsa]
+RewriteRule ^evenementsFuturs/$   index.php?data=evenementsFuturs [nc]

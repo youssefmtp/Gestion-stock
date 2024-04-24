@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestionStock</name>
+    </assembly>
+    <members>
+        <member name="T:GestionStock.ClassePasserelle">
+            <summary>
+            Permet d'accéder aux informations de la base de données via un web service.
+            </summary>
+            
+        </member>
+        <member name="M:GestionStock.ClassePasserelle.GetUser(System.String,System.String)">
+            <summary>
+            Obtient les informations de l'utilisateur correspondant a l'adresse mail et au mot de passe
+            </summary>
+            <param name="mail">Adresse mail</param>
+            <param name="mdp">Mot de passe</param>
+            <exception cref="T:System.Exception">Si la connexion n'a pas aboutie</exception>
+            <returns>Un objet Utilisateur contenant les données de l'utilisateur</returns>
+        </member>
+        <member name="M:GestionStock.ClassePasserelle.GetProduits">
+            <summary>
+            Obtient la liste de tous les produits de la base de données
+            </summary>
+            <exception cref="T:System.Exception">Si aucun produits n'est retourner</exception>
+            <returns>La liste de tous les produits </returns>
+        </member>
+        <member name="M:GestionStock.ClassePasserelle.GetProduitsById(GestionStock.Produit)">
+            <summary>
+            Obtient le produit passer en paramétre de la base de données
+            </summary>
+            <param name="unP"> un produit </param>
+            <returns> le produit </returns>
+            <exception cref="T:System.Exception">Si le produit n'est retourner</exception>
+        </member>
+        <member name="M:GestionStock.ClassePasserelle.GetCommandes">
+            <summary>
+            Obtient la liste de toutes les commandes de la base de données
+            </summary>
+            <exception cref="T:System.Exception">Si aucune commandes n'est retourner</exception>
+            <returns>La liste de toutes les commandes </returns>
+        </member>
+        <member name="M:GestionStock.ClassePasserelle.GetStatutCmd(GestionStock.Commande)">
+            <summary>
+            Obtient les statuts de la commande
+            </summary>
+            <exception cref="T:System.Exception">Retourne le message d'erreur </exception>
+            <returns>Collection des changements statuts </returns>
+        </member>
+    </members>
+</doc>

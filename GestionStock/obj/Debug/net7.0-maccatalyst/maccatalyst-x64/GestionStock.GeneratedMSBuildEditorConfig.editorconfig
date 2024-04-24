@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GestionStock
+build_property.ProjectDir = C:\wamp64\www\ServiceWebGestionStock\GestionStock\
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageCommandes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageCommandes.xaml
+build_metadata.AdditionalFiles.TargetPath = PageCommandes.xaml
+build_metadata.AdditionalFiles.RelativePath = PageCommandes.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageConnexion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageConnexion.xaml
+build_metadata.AdditionalFiles.TargetPath = PageConnexion.xaml
+build_metadata.AdditionalFiles.RelativePath = PageConnexion.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageDetailCmd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageDetailCmd.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetailCmd.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetailCmd.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageDetailCmdExpediteur.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageDetailCmdExpediteur.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetailCmdExpediteur.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetailCmdExpediteur.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageDetailProd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageDetailProd.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetailProd.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetailProd.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageMenuServiceExpedition.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageMenuServiceExpedition.xaml
+build_metadata.AdditionalFiles.TargetPath = PageMenuServiceExpedition.xaml
+build_metadata.AdditionalFiles.RelativePath = PageMenuServiceExpedition.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageMenuUtilisateur.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageMenuUtilisateur.xaml
+build_metadata.AdditionalFiles.TargetPath = PageMenuUtilisateur.xaml
+build_metadata.AdditionalFiles.RelativePath = PageMenuUtilisateur.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/PageProduits.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.PageProduits.xaml
+build_metadata.AdditionalFiles.TargetPath = PageProduits.xaml
+build_metadata.AdditionalFiles.RelativePath = PageProduits.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/wamp64/www/ServiceWebGestionStock/GestionStock/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStock.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

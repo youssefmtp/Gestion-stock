@@ -1,0 +1,1 @@
+C:\wamp64\www\ServiceWebGestionStock\GestionStock\GestionStock.csproj;x64

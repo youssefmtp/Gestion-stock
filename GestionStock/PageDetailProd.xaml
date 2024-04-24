@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionStock.PageDetailProd"
+             Title="Plus de détail sur le produit"
+             Loaded="ContentPage_Loaded">
+    <ScrollView>
+        <VerticalStackLayout WidthRequest="600" HorizontalOptions="Center">
+        
+
+            <Button Text = "Précédent" Grid.Row="0" Grid.Column="1" FontSize = "15"  Margin = "0,10,0,0" HorizontalOptions="Start"
+                Clicked="btnPrecedent_Clicked"/>
+
+            <CollectionView  x:Name="colViewDetailProduits" SelectionMode="None"
+                Margin="30,20,0,0" ItemsSource="{Binding Produit}" MaximumHeightRequest="750">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+
+                            </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding PhotoProd}" Grid.Column="0" Grid.Row="0" HeightRequest="200" WidthRequest="200"/>
+
+
+                            <Label Text = "{Binding AfficheMarqueLibelle}" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" Margin = "0,0,0,0" FontSize = "17"/>
+
+
+                            <Label Text = "{Binding Resume}" Grid.Column="0" Grid.Row="3" MaximumWidthRequest="450" Margin = "0,0,0,0" HorizontalOptions="Start" FontSize = "15"/>
+
+                            <Label Text = "{Binding AffichePrix}" Grid.Column="0" Grid.Row="4" Margin = "0,10,0,0" FontSize = "15" />
+
+                            <Label Text = "{Binding AfficheQteEnStock}" Grid.Column="0" Grid.Row="6" Margin = "0,10,0,0" FontSize = "15"/>
+                            
+
+                            <Label Text = "{Binding AfficheSeuilAlerte}" Grid.Column="0" Grid.Row="7" Margin = "0,20,0,0" FontSize = "15"/>
+                            
+
+                            <Label Text = "{Binding AfficheLibelleSousCateg}" Grid.Column="0" Grid.Row="8" Margin = "0,10,0,0" FontSize = "15"/>
+
+
+
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <VerticalStackLayout WidthRequest="{OnPlatform WinUI=750}" >
+
+                <HorizontalStackLayout >
+                    <Entry x:Name="txtSeuilAlerte" Margin = "30,10,0,0" BackgroundColor = "White" WidthRequest="70"/>
+                    <Button Text = "Nouveau seuil d'alerte" FontSize = "15" Clicked="btnNvSeuil_Clicked" Margin="10,10,0,0" WidthRequest="190" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout >
+                    <Entry x:Name = "txtQteEnStock"  Margin = "30,10,0,0" BackgroundColor = "White" WidthRequest="70"/>
+                    <Button Text = "Réapprovisionner le stock" FontSize = "15" Clicked="btnAjoutStock_Clicked" Margin = "10,10,0,0" WidthRequest="220" />
+                </HorizontalStackLayout>
+                
+            </VerticalStackLayout>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

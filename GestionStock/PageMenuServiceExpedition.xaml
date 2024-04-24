@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionStock.PageMenuServiceExpedition"
+             Title="Menu principal">
+
+    <!--Margin : Gauche, haut, droite, bas -->
+    <ScrollView>
+        <VerticalStackLayout WidthRequest="620" HorizontalOptions="Center">
+
+
+            <Button Text = "Se déconnecter" Grid.Row="0" Grid.Column="1" FontSize = "15"  Margin = "0,10,20,0" HorizontalOptions="End"
+                Clicked="btnDeconnection_Clicked"/>
+
+            <Label x:Name="lblBonjour" HorizontalOptions="Center"
+               Text = "Bonjour "
+               Margin = "0,100,130,0" FontSize = "24"/>
+
+            <Button Text = "Commandes" Margin="0,40,0,0" FontSize="20" HorizontalOptions="Center" WidthRequest="360"
+                Clicked="btnCommandes_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
